@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    padding-top: 57px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    gap: 42px;
+    display: flex;
+    list-style: none;
+}
+
+ul li a {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.write__me__block {
+    gap: 130px;
+    display: flex;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.write__me__descr h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.write__me__descr p {
+    margin: 60px 0;
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+}
+
+.write__me__descr button {
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px 41px;
+    background: #34547A;
+}
+
+/* About Me */
+
+.about__me__descr {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 119px;
+}
+
+.about__me__sec {
+    background: #F9F9F9;
+    margin-top: 146px;
+}
+
+.about__me__descr h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.about__me__descr p {
+    padding: 50px 0 100px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* My Projects Sec */
+
+.my__projects__sec {
+    padding: 100px 0;
+    background-color: #34547A;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.cards__wrapper {
+    gap: 40px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+/* Skills Wrapper */
+
+.my__skills__sec {
+    padding: 100px 0;
+}
+
+.skills__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills__block {
+    width: 45%;
+}
+
+.photo__block {
+    width: 45%;
+}
+
+.photo__block img {
+    width: 100%;
+}
+
+.gray {
+    height: 4px;
+    width: 445px;
+    background: #C4C4C4;
+}
+
+.blue {
+    height: 4px;
+    width: 350px;
+    background: #34547A;
+}
+
+.skills__block h3 {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.skill__bar {
+    padding-bottom: 30px;
+}
+
+.skill__bar p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+/* How i'am Work */
+
+.how__works__sec {
+    padding: 100px 0;
+    background: var(--silver, #EEEFF1);
+}
+
+.works__descr {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.works__descr h3 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.works__descr p {
+    font-size: 16px;
+    color: #727272;
+    font-weight: 400;
+    padding: 50px 0;
+}
+
+/* images */
+
+.images__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+    height: 337px;
+}
+
+
+
+.sticker {
+    background-image: url(../images/stickers.png);
+    background-size: cover;
+}
+
+.laptop {
+    background-image: url(../images/laptop2.png);
+    background-size: cover;
+
+}
+
+.view {
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    justify-content: center;
+    background: rgba(52, 84, 122, 0.80);
+}
+
+.view:hover {
+    opacity: 1;
+}
+
+.microsoft__wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 72px;
+}
+
+footer {
+    background: var(--silver, #EEEFF1); 
+  
+}
+
+.form__wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.form__wrapper h4 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.form__wrapper p {
+    font-weight: 400;
+    margin: 50px 0 65px;
+    font-style: 16px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea {
+    margin: 20px 0 50px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 17px 0 0 20px;
+}
+
+.form__top {
+    gap: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.form__top input {
+  width: 50%; 
+  outline: none;
+    border: none;
+    padding: 18px 0 18px 18px;
+}
+
+form button {
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    background: #34547A;
+}
+
+.wk__sec {
+    background: var(--accent, #34547A);
+    color: white;
+    padding: 20px 0;
+
+}
+
+.wk__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 21px;
+}
+
+.wk__sec h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wk__sec p {
+    opacity: 0.9;
+    font-style: 11px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+

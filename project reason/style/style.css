@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    padding-top: 57px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    gap: 42px;
+    display: flex;
+    list-style: none;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.write_me_block {
+    gap: 130px;
+    display: flex;
+    align-items: center;
+    padding-top: 140px;
+}
+.write_me_descr h1{
+font-size: 45px;
+font-weight: 500;
+}
+.write_me_descr p {
+    margin: 60px 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.write_me_descr button {
+    padding: 25px 41px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    border: none;
+    background: #34547A;
+}
+.about_me_descr {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 119px;
+}
+.about_me_sec {
+    background: #F9F9F9;
+}
+.about_me_descr h2 {
+    font-size:32px ;
+    font-weight: 500;
+
+}
+.about_me_descr p {
+    padding: 50px 0 100px;
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+.my_project {
+    padding: 100px 0;
+    background: #344c7a;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+}
+.card p {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.cards__wrapper {
+    gap: 40px;
+    display: flex;
+    color: #F9F9F9;
+    justify-content: center;
+} 
+.my__skill__sec {
+    padding: 100px 0 ;
+}
+.skills__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__block {
+    width: 45%;
+}
+
+.photo__block {
+    width: 45%;
+}
+
+.photo__block img {
+    width: 100%;
+}
+
+
+.gray {
+    width: 445px;
+    height: 4px;
+    background: #c4c4c4;
+    opacity: 0.4;
+}
+
+.blue {
+    width: 350px;
+    height: 4px;
+    background:#E0FFFF;
+}
+
+.skills__block h3 {
+    padding-bottom: 50px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.skill_bar {
+    padding-bottom: 30px;
+}
+.skill_bar p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.how__works__sec {
+    padding: 100px 0;
+    background: var(--silver, #EEEFF1);
+}
+
+.how__works__descr {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.how__works__descr h3 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.how__works__descr p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    padding: 50px 0 ;
+}
+
+.images__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+    height: 337px;
+}
+
+.stickers {
+    background-image: url(../images/stickers.png);
+    background-size: cover;
+}
+
+.laptop {
+    background-image: url(../images/laptop2.png) ;
+    background-size: cover;
+    
+}

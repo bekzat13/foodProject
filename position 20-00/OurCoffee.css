@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Merienda', cursive;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    z-index: 2;
+}
+.header .container{
+    display: flex;
+    align-items: flex-end;
+}
+.header ul{
+    display: flex;
+    column-gap: 40px;
+    color: white;
+    align-items: center;
+}
+.section1{
+    background: url("coffee-shop-1209863_1920 (5).png")center/cover no-repeat;
+    padding-top: 150px;
+    padding-bottom: 84px;
+}
+.section1 h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.sec2__line{
+    width: 60px;
+    height: 2px;
+    background: black;
+}
+.section2__icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    margin: 20px 0 40px;
+}
+.section2-box{
+    display: flex;
+
+}
+.section2-left{
+    width: 35%;
+
+}
+.section2-rigt{
+    width: 40%;
+    text-align: center;
+}
+.section2{
+    padding: 70px 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.section3__top{
+    display: flex;
+    justify-content: space-between;
+}
+.section3{
+    padding: 100px 0;
+}
+.section3__left{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.section3__right{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+}
+.section3__right ul{
+    display: flex;
+    column-gap: 5px;
+}
+.section3__left input{
+    padding: 9px 0 6px 40px;
+    border: none;
+    outline: none;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+.section3__right li{
+    padding: 7px 20px;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+
+}
+.section3__card{
+    padding: 37px 26px 22px;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+    width: 220px;
+    text-align: right;
+}
+.section3__card img{
+    width: 100%;
+    margin-bottom: 14px;
+}
+.section3__card p{
+    margin: 14px 0;
+}
+.section3__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+}
+.tabs__content {
+    display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+    display: block; /* по умолчанию показываем нужный блок */
+}
+
+.footer__top{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.footer__top ul{
+    display: flex;
+    column-gap: 40px;
+}
+.footer__line{
+    width: 60px;
+    height: 2px;
+    background: black;
+}
+.footer__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+    margin-bottom: 20px;
+}

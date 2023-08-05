@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav div , ul {
+    display: flex;
+    align-items: center;
+}
+
+.logo__nav {
+    gap: 14px;
+}
+
+.logo__nav p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #6C63FF;
+}
+
+.links__nav ul {
+  list-style: none;
+  font-style: 17px;
+  color: black;
+  font-weight: 700;
+  gap: 40px;
+}
+
+.links__nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.buttons__nav a {
+     color: black;
+     text-decoration: none;
+}
+
+.buttons__nav {
+    gap: 32px;
+}
+
+.buttons__nav .button {
+    gap: 14px;
+}
+
+.buttons button {
+    border: none;
+    padding: 10px 24px;
+    border: 1.5px solid #b7b3b3;
+}
+
+.buttons button :first-child {
+    background: #FFF;
+    color: black;
+}
+
+.sending__money {
+    display: flex;
+    align-items: center;
+    padding: 90px 0 190px;
+    justify-content: space-between;
+}
+
+.sending__money__descr {
+    width: 35%;
+}
+
+.sending__money__descr h1 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.sending__money__descr .sendimg__line {
+    width: 52px;
+    height: 3px;
+    margin: 20px 0;
+    border-color: #b7b3b3;
+}
+
+.sending__money__descr P {
+    opacity: 0.9;
+    font-size: 20px;
+    margin-bottom: 54px;
+}
+
+.sending__money__buttons {
+    gap: 20px;
+    display: flex;
+}
+
+.sending__money__buttons button:first-child {
+    border: none;
+    color: 000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 39px;
+    background: #FFF;
+    border: 1.5 solid #353434;
+}
+
+.sending__money__buttons button:last-child {
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 19px;
+    background: #FFF;
+    border: 1.5px solid #353434;
+}
+
+
+.how__it__works__sec {
+    padding-bottom: 160px;
+}
+
+.how__it__works__wrapper {
+    text-align: center;
+}
+
+.works__descr h2 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.works__descr .works__line {
+    width: 49px;
+    height: 3px;
+    margin: 21px auto;
+    background: #B7B3B3;
+}
+
+.works__descr p {
+    opacity: 0.8;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.works__cards {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.works__cards .card {
+    width: 90%;
+}
+
+.card img {
+    margin: 0 auto;
+    
+width: 207px !important ;
+}
+
+.card h3 {
+    margin-top: 56px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.card p {
+    opacity: 0.9;
+     font-size: 16px;
+     font-weight: 660;
+
+}
+
+.real__time__wrapper {
+    display: flex;
+justify-content: space-around;
+    align-items: center;
+}
+
+.real__time__descr {
+    width: 35%;
+}
+
+.real__time__sec {
+    padding: 100px 0 150px;
+}
+
+.real__time__descr .real__time__line {
+    width: 86px;
+    height: 3px;
+    background: #C4C4C4;
+    margin: 12px 0 35px;
+}
+
+.real__time__descr p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.real__time__descr a {
+    color: #6C63FF;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.round {
+     top: 10px;
+     left: 10px;
+     z-index: -1;
+     position: absolute;
+}
+
+.giving__service__sec {
+    text-align: center;
+}
+  
+.services__cards {
+    display: flex;
+}
+
+.giving__services__sec {
+    padding-top: 115px;
+}
+
+.services__descr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services__logo, .services__logo__text {
+    display: flex;
+    align-items: center;
+}
+.services__line {
+    width: 49px;
+    height: 3px;
+    margin: 20px 0 36px;
+    background: #B7B3B3;
+}
+
+.lorem__services {
+    color: #B7B3B3;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.services__card {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.services__card .card {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.card img {
+    width: 95px !important;
+}
+
+.services__card h3 {
+          font-size: 23px;
+        font-weight: 600;
+ }
+
+ .services__card p {
+    color: #B7B3B3;
+    font-size: 15px ;
+    font-weight: 500;
+    margin-top: 19px;
+ }
+
+   

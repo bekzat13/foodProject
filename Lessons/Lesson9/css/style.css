@@ -1,0 +1,48 @@
+*{
+
+    box-sizing: border-box;
+}
+.nav-link{
+    display: flex;
+ 
+    justify-content: center;
+    gap: 30px;
+    font-size: 50px;
+   
+}
+.nav-item{
+    color: black;
+    font-size: 50px;
+}
+.login-text{
+    color: grey;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lawngreen;
+}
+.persone-sing{
+    position: absolute;
+    right: 500px;
+}
+.btn{
+    font-size: 40px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+body{
+    background-color: olivedrab;
+}
+.solum-about{
+    display: flex;
+    align-items: center;
+    padding-top: 93px;
+    font-size: 45px;
+    gap: 10px;
+}
+.ops{
+  width: 20px;
+}

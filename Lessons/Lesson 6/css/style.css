@@ -1,0 +1,50 @@
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    font-size: 100px;
+    color: black;
+}
+.logo{
+    width: 330px;
+    height: 280px;
+    border-radius: 50px;
+}
+.box{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    cursor: pointer;
+    position: absolute;
+    left: 400px;
+    border: 20px solid blue;
+}
+.link{
+    font-size: 40px;
+}
+.crt{
+    width: 320px;
+    height: 220px;
+    position: relative;
+    top: 90px;
+    left: 90px;
+}
+.bol{
+    background-color: blueviolet;
+    width: 500px;
+    height: 400px;
+    cursor: pointer;
+    margin: 30px;
+    padding: 10px;
+}
+.fot{
+    font-size: 30px;
+}
+.tof{
+    font-size: 30px;
+}
+.coln{
+    display: flex;
+    justify-content: space-evenly;
+}

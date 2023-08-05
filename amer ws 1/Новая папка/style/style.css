@@ -1,0 +1,40 @@
+h1 {
+    font-size: 100px;
+    color: goldenrod;
+    background-color: bisque
+}
+p {
+    text-align: center;
+    font-size: 35PX;
+    color: thistle;
+
+}
+h2 {
+    text-align: center;
+    font-size: 80PX;
+    color:thistle;
+}
+h3 {
+    text-align: center;
+    font-size: 80PX ;
+    color: peru;
+}
+h4 {
+    text-align: center;
+    font-size: 80px;
+    color: peru;
+}
+img {
+    width: 800px;
+    border-radius: 25px;
+}
+div {
+    border-radius: 25px;
+    text-align: center;
+    background-color: antiquewhite;
+    
+}
+
+a {
+    background: chartreuse;
+}

@@ -1,0 +1,19 @@
+@media (max-width: 414px) {
+
+    .container {
+        width: 414px
+    }
+    
+    nav {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    ul {
+        display: block;
+    }
+ .write__me__block {
+    display: flex;
+    text-align: center;
+ }

@@ -1,0 +1,19 @@
+body{
+    background-color: navy;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: grey;
+    font-size: 70px;
+}
+.logo-item{
+    border-radius: 15px;
+}
+.btn{
+    background-color: yellow;
+    border-radius: 10px;
+font-size: 70px;
+cursor: pointer;
+}

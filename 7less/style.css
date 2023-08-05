@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-2{
+    width: calc(50% - 10px);
+    height: 150px;
+    background: blue;
+    border: 5px solid blue;
+}
+
+.card-3{
+    width:calc(33.33333% - 13.33333px);
+    background: gray;
+    height: 150px;
+    border: 5px solid gray;
+}
+
+.card-4{
+    width: calc(25% - 16px);
+    background: red;
+    height: 150px;
+    border: 5px solid red;
+}
+
+.card-1{
+    width: calc(100%);
+    background: green;
+    height: 150px;
+    border: 5px solid green ;
+}
+
+
+

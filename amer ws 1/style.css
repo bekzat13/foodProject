@@ -1,0 +1,24 @@
+h1 {
+    color: orange; 
+    background-color: blueviolet;
+    text-align: center;
+font-size: 59px;
+display: inline;
+}
+a {
+    color: purple;
+    font-size: 40px;
+    background-color: red;
+}
+
+
+.box1 {
+    background-color: darkslategrey;
+    width: 100px;
+    height: 100px;
+}
+.box2 {
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+}
